@@ -8,4 +8,4 @@ Questions?
 
 [Gato Roboto Randomizer Discord server](https://discord.me/gatorando)
 
-[My server!)](discord.gg/r4zf2RM)
+[My server!](discord.gg/r4zf2RM)

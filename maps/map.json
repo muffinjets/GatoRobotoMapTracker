@@ -1,0 +1,44 @@
+[
+    {
+        "name": "worldmap",
+        "img": "images/maps/worldmap.png",
+        "location_size": "50",
+        "location_border_thickness": 10
+    },
+    {
+        "name": "landingsite",
+        "img": "images/maps/landingsite.png",
+        "location_size": 50,
+        "location_border_thickness": 10
+    },
+    {
+        "name": "nexus",
+        "img": "images/maps/nexus.png",
+        "location_size": 50,
+        "location_border_thickness": 10
+    },
+    {
+        "name": "aqueducts",
+        "img": "images/maps/aqueducts.png",
+        "location_size": 50,
+        "location_border_thickness": 10
+    },
+    {
+        "name": "incubator",
+        "img": "images/maps/incubator.png",
+        "location_size": 50,
+        "location_border_thickness": 10
+    },
+    {
+        "name": "heatercore",
+        "img": "images/maps/heatercore.png",
+        "location_size": 50,
+        "location_border_thickness": 10
+    },
+    {
+        "name": "ventilation",
+        "img": "images/maps/ventilation.png",
+        "location_size": 50,
+        "location_border_thickness": 10
+    }
+]

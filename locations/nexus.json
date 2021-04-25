@@ -1,0 +1,151 @@
+[
+    {
+        "name": "Nexus",
+        "chest_unopened_img": "images/x.png",
+        "chest_opened_img": "images/check.png",
+        "color": "#FFFFFF",
+        "children": [
+            {
+                "name": "Rebba the Frog",
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 1993,
+                        "y": 945
+                    },
+                    {
+                        "map": "nexus",
+                        "x": 496,
+                        "y": 374
+                    }
+                ],
+                "sections":[
+                    {
+                        "name": "7 Cartridges",
+                        "access_rules": ["cartridges:7"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "14 Cartridges",
+                        "access_rules": ["cartridges:14"],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "N-H1",
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 1696,
+                        "y": 862
+                    },
+                    {
+                        "map": "nexus",
+                        "x": 202,
+                        "y": 289
+                    }
+                ],
+                "sections":[
+                    {
+                        "name": "If blue, this item is observable, but not obtainable. Mark it with the dotted box.",
+                        "access_rules": [
+                            "$NH1",
+                            "{rockets}"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "N-H2",
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 2247,
+                        "y": 860
+                    },
+                    {
+                        "map": "nexus",
+                        "x": 753,
+                        "y": 287
+                    }
+                ],
+                "sections":[
+                    {
+                        "name": "",
+                        "access_rules": ["rockets"],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "N-C1",
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 1657,
+                        "y": 859
+                    },
+                    {
+                        "map": "nexus",
+                        "x": 159,
+                        "y": 288
+                    }
+                ],
+                "sections":[
+                    {
+                        "name": "",
+                        "access_rules": ["rockets"],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "N-C2",
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 1868,
+                        "y": 819
+                    },
+                    {
+                        "map": "nexus",
+                        "x": 370,
+                        "y": 247
+                    }
+                ],
+                "sections":[
+                    {
+                        "name": "",
+                        "access_rules": ["$NC2"],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "N-C3",
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 2162,
+                        "y": 820
+                    },
+                    {
+                        "map": "nexus",
+                        "x": 665,
+                        "y": 247
+                    }
+                ],
+                "sections":[
+                    {
+                        "name": "",
+                        "access_rules": ["rockets"],
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    }
+]

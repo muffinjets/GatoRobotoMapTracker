@@ -1,0 +1,146 @@
+[
+    {
+        "name": "Landing Site",
+        "chest_unopened_img": "images/x.png",
+        "chest_opened_img": "images/check.png",
+        "color": "#FFFFFF",
+        "children": [
+            {
+                "name": "L-C1",
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 1777,
+                        "y": 332
+                    },
+                    {
+                        "map": "landingsite",
+                        "x": 321,
+                        "y": 309
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "L-H1",
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 1646,
+                        "y": 251
+                    },
+                    {
+                        "map": "landingsite",
+                        "x": 193,
+                        "y": 223
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "L-U1",
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 1862,
+                        "y": 507
+                    },
+                    {
+                        "map": "landingsite",
+                        "x": 410,
+                        "y": 480
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "If yellow, this location either has rockets or is a softlock without rockets.",
+                        "access_rules": [
+                            "[rockets]"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "L-U2",
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 1819,
+                        "y": 205
+                    },
+                    {
+                        "map": "landingsite",
+                        "x": 364,
+                        "y": 183
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "This location requires all other areas cleared.",
+                        "access_rules": [
+                            "$LU2"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "L-H2",
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 2250,
+                        "y": 421
+                    },
+                    {
+                        "map": "landingsite",
+                        "x": 798,
+                        "y": 402
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": ["rockets"],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "L-C2",
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 2246,
+                        "y": 332
+                    },
+                    {
+                        "map": "landingsite",
+                        "x": 798,
+                        "y": 314
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": ["rockets"],
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    }
+]

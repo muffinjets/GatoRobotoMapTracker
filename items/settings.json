@@ -1,0 +1,78 @@
+[
+    {
+        "name": "Small Mech",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": [
+            {
+                "img": "images/settings/smallmech.png",
+                "codes": "setting_smallmech, OPTB_small_mech",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/smallmechoff.png",
+                "codes": "setting_smallmech_off",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Phase Save State",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": [
+            {
+                "img": "images/settings/phasesavestate.png",
+                "codes": "setting_phasesavestate, OPTB_phase_save",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/phasesavestateoff.png",
+                "codes": "setting_phasesavestate_off",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Advanced Movement",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": [
+            {
+                "img": "images/settings/advancedmovement.png",
+                "codes": "setting_advancedmovement, OPTB_advanced",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/advancedmovementoff.png",
+                "codes": "setting_advancedmovement_off",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Beginner Logic",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": [
+            {
+                "img": "images/settings/beginnerlogic.png",
+                "codes": "setting_beginnerlogic",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/beginnerlogicoff.png",
+                "codes": "setting_beginnerlogic_off, OPTB_not_beginner",
+                "inherit_codes": false
+            }
+        ]
+    }
+]

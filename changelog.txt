@@ -1,0 +1,44 @@
+1.0
+-------------
+Release
+Poggers
+
+
+1.1
+-------------
+
+-Swapped the logic rules for H-U1 and H-U2 due to a labelling error on the randomizer's side
+
+-Improved the setting images
+
+1.2
+-------------
+
+-Corrected N-C3's location on the maps, was sitting on top of N-C1
+
+1.3
+-------------
+
+-Added L-U1, it didn't exist in the first place due to a misunderstanding
+-Because of above change, adjusted L-U2 to account for the decoder's requirements
+
+1.3.1
+-------------
+-AAAAAHHHHH
+-AAAAHHHHHH
+-L-U2 had an "or" instead of an "and" which caused it to show up with literally only rockets
+
+1.3.2
+-------------
+-Secret update
+-The randomizer doesn't have glitchless logic rules for L-U2, so I added the correct rule myself
+-L-U2 requires rockets, dash, and one of these three:
+	A. Small Mech enabled
+	B. Phase Save State enabled
+	C. Spin Jump
+
+
+1.3.3
+------------
+-Slightly less secret update
+-I was wrong about L-U2 requiring spin jump, you don't need it

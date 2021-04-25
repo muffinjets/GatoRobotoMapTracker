@@ -1,0 +1,164 @@
+[
+    {
+        "name": "Heater Core",
+        "chest_unopened_img": "images/x.png",
+        "chest_opened_img": "images/check.png",
+        "color": "#FFFFFF",
+        "children": [
+            {
+                "name": "H-U1",
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 2194,
+                        "y": 1282
+                    },
+                    {
+                        "map": "heatercore",
+                        "x": 100,
+                        "y": 204
+                    }
+                ],
+                "sections":[
+                    {
+                        "name": "",
+                        "access_rules": ["$MostOfHeaterCore"],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "H-U2",
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 2620,
+                        "y": 1320
+                    },
+                    {
+                        "map": "heatercore",
+                        "x": 530,
+                        "y": 247
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": ["rockets"],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "H-C1",
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 2319,
+                        "y": 1320
+                    },
+                    {
+                        "map": "heatercore",
+                        "x": 227,
+                        "y": 248
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": ["$MostOfHeaterCore"],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "H-C2",
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 2965,
+                        "y": 1408
+                    },
+                    {
+                        "map": "heatercore",
+                        "x": 875,
+                        "y": 333
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": ["$MostOfHeaterCore"],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "H-C3",
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 2705,
+                        "y": 1535
+                    },
+                    {
+                        "map": "heatercore",
+                        "x": 615,
+                        "y": 460
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": ["$MostOfHeaterCore"],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "H-H1",
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 2877,
+                        "y": 1277
+                    },
+                    {
+                        "map": "heatercore",
+                        "x": 787,
+                        "y": 203
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": ["$MostOfHeaterCore"],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "H-H2",
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 2320,
+                        "y": 1448
+                    },
+                    {
+                        "map": "heatercore",
+                        "x": 228,
+                        "y": 374
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": ["$MostOfHeaterCore"],
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    }
+]

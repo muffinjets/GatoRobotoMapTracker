@@ -1,0 +1,258 @@
+{
+    "item_grid": {
+        "type": "itemgrid",
+        "h_alignment": "left",
+        "item_margin": "4,4",
+        "rows": [
+            ["rocket", "spinjump", "phase"],
+            ["coolant", "bigshot", "decoder"],
+            ["repeater", "hopper"],
+            ["cartridges", "healthpacks"]
+        ]
+    },
+    "settings_grid": {
+        "type": "array",
+        "margin": 5,
+        "content": [
+            {
+                "type": "group",
+                "header": "Settings/Glitches",
+                "content": [
+                    {
+                        "type": "item",
+                        "item": "setting_smallmech"
+                    },
+                    {
+                        "type": "item",
+                        "margin": "0, 30, 0, 0",
+                        "item": "setting_phasesavestate"
+                    },
+                    {
+                        "type": "item",
+                        "margin": "0, 60, 0, 0",
+                        "item": "setting_advancedmovement"
+                    },
+                    {
+                        "type": "item",
+                        "margin":"0, 90, 0, 0",
+                        "item": "setting_beginnerlogic"
+                    }
+                ]
+            }
+        ]
+    },
+    "tracker_default": {
+        "type": "container",
+        "background": "#000000",
+        "content": {
+            "type": "dock",
+            "dropshadow": false,
+            "content": [
+                {
+                    "type": "dock",
+                    "dock": "left",
+                    "v_alignment": "stretch",
+                    "margin": "0, 0, 3, 0",
+                    "content": [
+                        {
+                            "type": "group",
+                            "header": "Items",
+                            "dock": "top",
+                            "header_content": {
+                                "type": "button_popup",
+                                "style": "settings",
+                                "popup_background": "#000000",
+                                "layout": "settings_grid"
+                            },
+                            "content": {
+                                "type": "layout",
+                                "key": "item_grid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Pinned Locations",
+                            "dock": "left",
+                            "content": {
+                                "type": "recentpins",
+                                "style": "wrap",
+                                "h_alignment": "stretch",
+                                "v_alignment": "stretch",
+                                "compact": true
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "dock",
+                    "v_alignment": "stretch",
+                    "margin": "0, 0, 0, 0",
+                    "content": [
+                        {
+                            "type": "tabbed",
+                            "dock": "top",
+                            "tabs": [
+                                {
+                                    "title": "World Map",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["worldmap"]
+                                    }
+                                },
+                                {
+                                    "title": "Landing Site",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["landingsite"]
+                                    }
+                                },
+                                {
+                                    "title": "Nexus",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["nexus"]
+                                    }
+                                },
+                                {
+                                    "title": "Aqueducts",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["aqueducts"]
+                                    }
+                                },
+                                {
+                                    "title": "Incubator",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["incubator"]
+                                    }
+                                },
+                                {
+                                    "title": "Heater Core",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["heatercore"]
+                                    }
+                                },
+                                {
+                                    "title": "Ventilation",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["ventilation"]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "tracker_vertical": {
+        "type": "container",
+        "background": "#000000",
+        "content": {
+            "type": "dock",
+            "dropshadow": false,
+            "content": [
+                {
+                    "type": "dock",
+                    "dock": "bottom",
+                    "v_alignment": "stretch",
+                    "margin":"0, 0, 3, 0",
+                    "content": [
+                        {
+                            "type": "group",
+                            "header": "Items",
+                            "header_content": {
+                                "type": "button_popup",
+                                "style": "settings",
+                                "popup_background": "#50212121",
+                                "layout": "settings_grid"
+                            },
+                            "content": {
+                                "type": "layout",
+                                "key": "item_grid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Pinned Locations",
+                            "dock": "right",
+                            "content": {
+                                "type": "recentpins",
+                                "style": "wrap",
+                                "h_alignment": "stretch",
+                                "v_alignment": "stretch",
+                                "orientation": "vertical",
+                                "compact": true
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "dock",
+                    "v_alignment": "stretch",
+                    "margin":"0, 0, 0, 0",
+                    "content": [
+                        {
+                            "type": "tabbed",
+                            "dock": "top",
+                            "tabs": [
+                                {
+                                    "title": "World Map",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["worldmap"]
+                                    }
+                                },
+                                {
+                                    "title": "Landing Site",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["landingsite"]
+                                    }
+                                },
+                                {
+                                    "title": "Nexus",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["nexus"]
+                                    }
+                                },
+                                {
+                                    "title": "Aqueducts",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["aqueducts"]
+                                    }
+                                },
+                                {
+                                    "title": "Incubator",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["incubator"]
+                                    }
+                                },
+                                {
+                                    "title": "Heater Core",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["heatercore"]
+                                    }
+                                },
+                                {
+                                    "title": "Ventilation",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["ventilation"]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

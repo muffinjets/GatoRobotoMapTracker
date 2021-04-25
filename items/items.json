@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Big Shot",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/bigshot.png",
+        "codes": "bigshot"
+    },
+    {
+        "name": "Coolant",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/coolant.png",
+        "codes": "coolant, cooler"
+    },
+    {
+        "name": "Decoder",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/decoder.png",
+        "codes": "decoder"
+    },
+    {
+        "name": "Hopper",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/hopper.png",
+        "codes": "hopper"
+    },
+    {
+        "name": "Phase Module",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/phase.png",
+        "codes": "phase, dash"
+    },
+    {
+        "name": "Repeater",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/repeater.png",
+        "codes": "repeater"
+    },
+    {
+        "name": "Rocket Module",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/rocket.png",
+        "codes": "rocket, rockets"
+    },
+    {
+        "name": "Spin Jump Module",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/spinjump.png",
+        "codes": "spinjump, spin, djump"
+    },
+    {
+        "name": "Cartridges",
+        "type": "consumable",
+        "img": "images/items/cartridge.png",
+        "max_quantity": 14,
+        "codes": "cartridges, carts"
+    },
+    {
+        "name": "Health Packs",
+        "type": "consumable",
+        "img": "images/items/healthpack.png",
+        "max_quantity": 10,
+        "codes": "healthpacks, health"
+    }
+]

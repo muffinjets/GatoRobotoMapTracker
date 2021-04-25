@@ -1,0 +1,142 @@
+[
+    {
+        "name": "Aqueducts",
+        "chest_unopened_img": "images/x.png",
+        "chest_opened_img": "images/check.png",
+        "color": "#FFFFFF",
+        "children": [
+            {
+                "name": "A-H1",
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 268,
+                        "y": 1365
+                    },
+                    {
+                        "map": "aqueducts",
+                        "x": 258,
+                        "y": 292
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": ["rockets"],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "A-C1",
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 400,
+                        "y": 1410
+                    },
+                    {
+                        "map": "aqueducts",
+                        "x": 388,
+                        "y": 333
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": ["djump, rockets"],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "A-U1",
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 1129,
+                        "y": 1541
+                    },
+                    {
+                        "map": "aqueducts",
+                        "x": 1115,
+                        "y": 464
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": ["rockets"],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "A-C2",
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 1004,
+                        "y": 1371
+                    },
+                    {
+                        "map": "aqueducts",
+                        "x": 990,
+                        "y": 292
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": ["rockets"],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "A-H2",
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 785,
+                        "y": 1370
+                    },
+                    {
+                        "map": "aqueducts",
+                        "x": 773,
+                        "y": 289
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": ["rockets"],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "A-C3",
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 574,
+                        "y": 1369
+                    },
+                    {
+                        "map": "aqueducts",
+                        "x": 556,
+                        "y": 289
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": ["rockets"],
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    }
+]

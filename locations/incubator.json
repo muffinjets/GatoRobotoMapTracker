@@ -1,0 +1,60 @@
+[
+    {
+        "name": "Incubator",
+        "chest_unopened_img": "images/x.png",
+        "chest_opened_img": "images/check.png",
+        "color": "#FFFFFF",
+        "children": [
+            {
+                "name": "I-H1",
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 1962,
+                        "y": 1274
+                    },
+                    {
+                        "map": "incubator",
+                        "x": 758,
+                        "y": 194
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "hopper, djump, dash, decoder, rocket, dash",
+                            "hopper, djump, dash, decodre, rocket, OPTB_small_mech"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "I-C1",
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 1575,
+                        "y": 1273
+                    },
+                    {
+                        "map": "incubator",
+                        "x": 371,
+                        "y": 194
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "decoder, rocket, dash",
+                            "decoder, rocket, OPTB_small_mech"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    }
+]
